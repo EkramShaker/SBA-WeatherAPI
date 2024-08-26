@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Search with Paginated Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather Explorer</h1>
+        <p class="description">Discover the current weather in cities around the world. Enter city names separated by commas and explore the data!</p>
+        <div class="input-group">
+            <input type="text" id="city-input" placeholder="Enter city names (e.g., London, Paris, New York)" />
+            <button id="get-weather" class="btn">Search</button>
+        </div>
+
+        <div id="weather-container" class="weather-container">
+        </div>
+
+        <div id="pagination" class="pagination">
+            <button id="prev-btn" class="page-btn disabled">Previous</button>
+            <button id="next-btn" class="page-btn">Next</button>
+        </div>
+    </div>
+
+    <script type="module" src="app.mjs"></script>
+
+
+
+</body>
+</html>
